@@ -1,0 +1,33 @@
+<h1>Id: <%= @user.id%></h1>
+<p>First Name: <%= @user.fname%></p>
+<p>Last Name:
+<%= @user.lname %>
+</p>
+<p>
+    Username: <%= @user.username%> <br>
+</p>
+<p>
+    Email: <%= @user.email%><br>
+</p>
+<p>
+    Phone Number: <%= @user.phone_number%><br>
+</p>
+<p>
+    DOB: <%=@user.Date_Of_Birth%>   
+    <%# DOB: <%= @user.Date_Of_Birth.strftime("%d/%m/%Y") %><br>
+</p>
+<p>
+
+    Term Start Date: <%= @user.term_start_date%><br>
+</p>
+<p>
+    Term End Date: <%= @user.term_end_date%><br>
+</p>
+<p>
+    Zip Code: <%= @user.zip_code%><br>
+</p>
+<ul>
+<li><%= link_to "Edit", edit_user_path(@user) %></li>
+<li> <%= link_to "Destory", user_path(@user), data: { turbo_method: :delete, turbo_confirm: "Are you sure??"} %></li> 
+<%# <li> <%= link_to "Show All", root_path </li>%> 
+</ul>
