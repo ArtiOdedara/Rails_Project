@@ -1,0 +1,2 @@
+class ItemModifier < ApplicationRecord
+end
