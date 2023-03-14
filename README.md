@@ -27,4 +27,4 @@
 ![image](https://user-images.githubusercontent.com/126135069/224381226-867bbb93-d07a-4bec-b474-b84c93284932.png)
 
 10. Return uniq and active items records which has price between 10 to 20.
-![image](https://user-images.githubusercontent.com/126135069/224381323-f6c05c59-0fe2-4c2e-a9b8-b192cbe2831c.png)
+![image](https://user-images.githubusercontent.com/126135069/224936007-bedbae1a-a373-45dc-81e0-14d78c9e2700.png)
